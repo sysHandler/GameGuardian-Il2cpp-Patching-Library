@@ -1,3 +1,10 @@
+--[[
+
+Telegram: @CodenameHandler
+Discord: @aristol2
+
+]]--
+
 Il2cppTool = {
     class = {}
 }
@@ -63,3 +70,5 @@ function Il2cppTool:RestoreAll()
         gg.alert("No modifications to restore!")
     end
 end
+
+-- I coded this during one boring afternoon :]
