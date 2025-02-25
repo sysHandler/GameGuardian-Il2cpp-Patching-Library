@@ -6,8 +6,8 @@ local startAddr, endAddr = il2cpp:findAddressMap('libil2cpp.so', 'Xa') -- Finds 
 
 il2cpp:createWithHex("Godmode", {
     [startAddr + 0x1075DE8] = "20 00 80 D2 C0 03 5F D6", -- Table Data No. 1
-    [startAddr + 0x1075FA4] = "00 00 80 D2 C0 03 5F D6", -- Table Data No. 2
-}) -- Initializes a class named "Godmdoe"
+    [startAddr + 0x1075FA4] = "00 00 80 D2 C0 03 5F D6" -- Table Data No. 2
+}) -- Initializes a class named "Godmode"
 
 il2cpp.class.Godmode.Modify() -- Applies the Patches of that class.
 
